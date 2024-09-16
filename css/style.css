@@ -1,0 +1,22 @@
+.hero {
+    height: 100vh;
+    background-image: url("../img/Firefly_environment_friendly_water_bottle_69739_(1).jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+}
