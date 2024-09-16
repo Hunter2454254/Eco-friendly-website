@@ -1,6 +1,6 @@
 .hero {
     height: 100vh;
-    background-image: url("../img/Firefly_environment_friendly_water_bottle_69739_(1).jpg");
+    background-image: url("../img/Firefly\ enviorment\ friendly\ water\ bottle\ 69739.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -19,4 +19,65 @@
 .hero .btn {
     font-size: 1.25rem;
     padding: 10px 20px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section .social-icon {
+    display: inline-block;
+    margin: 5px;
+}
+
+.footer-section .social-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
 }
